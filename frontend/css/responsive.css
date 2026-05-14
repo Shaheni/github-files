@@ -1,0 +1,17 @@
+@media(max-width: 768px) {
+
+    .hero-title {
+
+        font-size: 2rem;
+    }
+
+    .dashboard-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+    .team-section {
+
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,42 @@
+.control-buttons {
+
+    display: flex;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
+}
+
+.control-btn {
+
+    flex: 1;
+
+    min-width: 120px;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 14px;
+
+    background:
+    linear-gradient(
+        90deg,
+        #06b6d4,
+        #14b8a6
+    );
+
+    color: white;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.control-btn:hover {
+
+    transform:
+    scale(1.05);
+}
